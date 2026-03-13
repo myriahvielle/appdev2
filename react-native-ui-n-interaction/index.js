@@ -1,6 +1,6 @@
 import { registerRootComponent } from 'expo';
 
-import App from './components/FlexDimensions.js';
+import App from './components/PercentageDimensionsDemo.js';
 
 // registerRootComponent calls AppRegistry.registerComponent('main', () => App);
 // It also ensures that whether you load the app in Expo Go or in a native build,
