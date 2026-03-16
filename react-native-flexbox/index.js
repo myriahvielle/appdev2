@@ -1,6 +1,6 @@
 import { registerRootComponent } from 'expo';
 
-import App from './components/AlignContentDemo.js';
+import App from './components/FlexWrapDemo.js';
 
 // registerRootComponent calls AppRegistry.registerComponent('main', () => App);
 // It also ensures that whether you load the app in Expo Go or in a native build,
