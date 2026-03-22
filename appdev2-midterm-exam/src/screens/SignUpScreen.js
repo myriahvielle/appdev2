@@ -8,7 +8,7 @@ import {
 } from "react-native";
 import Ionicons from "@react-native-vector-icons/ionicons";
 
-export default function LoginScreen() {
+export default function SignUpScreen() {
   return (
     <View style={styles.container}>
       {/* 1. Header Section */}
