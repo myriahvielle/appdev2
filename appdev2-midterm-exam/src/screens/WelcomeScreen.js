@@ -60,5 +60,11 @@ const styles = StyleSheet.create({
     width: '100%',
     height: '100%',
   },
+  bottomSection: {
+    flex: 1.5,
+    justifyContent: 'center',
+    alignItems: 'center',
+    paddingBottom: 40
+  },
 });
 
