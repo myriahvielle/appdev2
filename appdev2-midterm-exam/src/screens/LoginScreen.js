@@ -77,5 +77,12 @@ const styles = StyleSheet.create({
         width: '80%',
         height: '70%',
     },
+     formContainer: {
+        flex: 2,
+        backgroundColor: '#FFF',
+        borderTopLeftRadius: 60,
+        borderTopRightRadius: 60,
+        padding: 30,
+    }
 });
 
