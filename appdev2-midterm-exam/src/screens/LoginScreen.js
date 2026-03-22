@@ -51,10 +51,10 @@ export default function LoginScreen() {
           </TouchableOpacity>
         </View>
 
-        <View style={styles.footer}>
-          <Text></Text>
+         <View style={styles.footer}>
+          <Text>Don't have an account? </Text>
           <TouchableOpacity>
-            <Text style={styles.linkText}></Text>
+            <Text style={styles.linkText}>Sign Up</Text>
           </TouchableOpacity>
         </View>
       </View>
@@ -129,5 +129,14 @@ const styles = StyleSheet.create({
         padding: 15,
         borderRadius: 15,
     },
+    footer: {
+        flexDirection: 'row',
+        justifyContent: 'center',
+        marginTop: 30,
+    },
+    linkText: {
+        color: '#FFCC00',
+        fontWeight: 'bold',
+    }
 });
 
