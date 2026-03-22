@@ -39,6 +39,17 @@ const styles = StyleSheet.create({
     backgroundColor: '#7D7AFF',
     paddingTop: 80,
     paddingHorizontal: 30
-  }
+  },
+  topSection: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  title: {
+    fontSize: 32,
+    fontWeight: 'bold',
+    color: 'white',
+    textAlign: 'center'
+  },
 });
 
