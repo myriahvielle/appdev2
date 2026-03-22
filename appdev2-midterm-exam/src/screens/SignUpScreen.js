@@ -51,9 +51,9 @@ export default function SignUpScreen() {
         </View>
 
          <View style={styles.footer}>
-          <Text>Don't have an account? </Text>
+          <Text>Already have an account? </Text>
           <TouchableOpacity>
-            <Text style={styles.linkText}>Sign Up</Text>
+            <Text style={styles.linkText}>Login</Text>
           </TouchableOpacity>
         </View>
       </View>
