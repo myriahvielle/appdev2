@@ -14,13 +14,16 @@ export default function SignUpScreen() {
       {/* 1. Header Section */}
       <View style={styles.header}>
         <Image
-          source={require("./../../assets/Login.webp")}
+          source={require("./../../assets/signup.webp")}
           style={styles.image}
         />
       </View>
 
       {/* 2. Form Section */}
       <View style={styles.formContainer}>
+        <Text style={styles.label}>Full Name</Text>
+        <TextInput style={styles.input} placeholder="John Doe" />
+        
         <Text style={styles.label}>Email Address</Text>
         <TextInput style={styles.input} placeholder="john@gmail.com" />
 
