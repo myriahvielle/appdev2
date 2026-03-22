@@ -11,7 +11,7 @@ export default function WelcomeScreen() {
       {/* 2. Middle Section */}
       <View style={styles.middleSection}>
         <Image
-          source={require("./../../assets/welcome.png")}
+          source={require("./../../assets/Welcome.png")}
           style={styles.image}
         />
       </View>
@@ -50,6 +50,15 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     color: 'white',
     textAlign: 'center'
+  },
+   middleSection: {
+    flex: 3,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  image: {
+    width: '100%',
+    height: '100%',
   },
 });
 
