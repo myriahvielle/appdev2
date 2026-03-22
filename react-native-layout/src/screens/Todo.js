@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View, TextInput, TouchableOpacity, SafeAreaView, ScrollView } from 'react-native'
 import React, { useEffect, useState } from 'react'
-import TodoCard from '../components/TodoCard'
+import TodoCard from './TodoCard'
 import { Ionicons } from '@expo/vector-icons'
 
 export default function Todo() {

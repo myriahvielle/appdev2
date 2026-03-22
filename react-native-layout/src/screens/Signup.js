@@ -1,9 +1,9 @@
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 import React from 'react'
-import TextInputComponent from '../components/TextInputComponent'
-import ButtonComponent from '../components/ButtonComponent'
+import TextInputComponent from './TextInputComponent'
+import ButtonComponent from './ButtonComponent'
 import { Ionicons } from '@expo/vector-icons';
-import FooterComponent from '../components/FooterComponent';
+import FooterComponent from './FooterComponent';
 
 export default function Signup({setPage, styles}) {
   return (

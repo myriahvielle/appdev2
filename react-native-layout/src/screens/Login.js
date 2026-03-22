@@ -1,9 +1,9 @@
 import { Button, Image, StyleSheet, Text, Touchable, TouchableOpacity, View } from 'react-native'
 import React from 'react'
-import TextInputComponent from '../components/TextInputComponent'
+import TextInputComponent from './TextInputComponent'
 import { Ionicons } from '@expo/vector-icons';
-import ButtonComponent from '../components/ButtonComponent';
-import FooterComponent from '../components/FooterComponent';
+import ButtonComponent from './ButtonComponent';
+import FooterComponent from './FooterComponent';
 import login from '../../assets/login.png'
 
 export default function Login({setPage, styles}) {
