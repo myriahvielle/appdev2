@@ -23,16 +23,12 @@ export default function SignUpScreen() {
       <View style={styles.formContainer}>
         <Text style={styles.label}>Full Name</Text>
         <TextInput style={styles.input} placeholder="John Doe" />
-        
+
         <Text style={styles.label}>Email Address</Text>
         <TextInput style={styles.input} placeholder="john@gmail.com" />
 
         <Text style={styles.label}>Password</Text>
         <TextInput style={styles.input} secureTextEntry placeholder="********" />
-
-          <TouchableOpacity>
-          <Text style={styles.forgotText}>Forgot Password? </Text>
-        </TouchableOpacity>
 
         <TouchableOpacity style={styles.loginButton}>
           <Text style={styles.loginButtonText}>Login</Text>
@@ -98,11 +94,6 @@ const styles = StyleSheet.create({
         padding: 15,
         borderRadius: 15,
         fontSize: 16,
-    },
-     forgotText: {
-        textAlign: 'right',
-        marginTop: 10,
-        color: '#666',
     },
     loginButton: {
         backgroundColor: '#FFCC00',
