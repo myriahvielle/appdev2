@@ -30,16 +30,6 @@ const styles = StyleSheet.create({
   }
 })
 
-// export default function App() {
-//   const [page, setPage] = useState('login')
-//   return (
-//     <>
-//       {
-//         page == 'login' ? <Login setPage={setPage} styles={styles}/> : <Signup setPage={setPage} styles={styles}/> 
-//       }
-//     </>
-//   );
-// }
 
 export default function App() {
  
@@ -48,4 +38,4 @@ export default function App() {
       <Todo/>
     </>
   );
-}
+} 
