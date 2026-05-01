@@ -71,6 +71,10 @@ const RootStack = createNativeStackNavigator({
     },
     Details: DetailsScreen,
   },
+  Details: {
+    screen: DetailsScreen,
+    initialParams: { itemId: 42 },
+  },
 });
 
 const Navigation = createStaticNavigation(RootStack);
