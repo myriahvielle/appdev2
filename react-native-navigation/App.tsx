@@ -21,9 +21,14 @@ function HomeScreen() {
   );
 }
 function DetailsScreen() {
+  const navigation = useNavigation();
+
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
       <Text>Details Screen</Text>
+       <Button onPress={() => navigation.push('Details')}>
+        Go to Details... again
+      </Button>
     </View>
   );
 }
