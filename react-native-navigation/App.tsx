@@ -26,9 +26,8 @@ function DetailsScreen() {
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
       <Text>Details Screen</Text>
-       <Button onPress={() => navigation.push('Details')}>
+       <Button onPress={() => navigation.goBack()}>Go back</Button>
         Go to Details... again
-      </Button>
     </View>
   );
 }
