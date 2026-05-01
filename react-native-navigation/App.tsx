@@ -11,17 +11,21 @@ import { Button } from '@react-navigation/elements';
 
 function HomeScreen() {
   const navigation = useNavigation();
+  
+ React.useEffect(() => {
+    if (route.params?.post) {
+      // Post updated, do something with `route.params.post`
+      // For example, send the post to the server
+      alert('New post: ' + route.params?.post);
+    }
+  }, [route.params?.post]);
 
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
       <Text>Home Screen</Text>
       <Button
         onPress={() => {
-          /* 1. Navigate to the Details route with params */
-          navigation.navigate('Details', {
-            itemId: 86,
-            otherParam: 'anything you want here',
-          });
+          navigation.popTo('Home', { post: postText });
         }}
       >
         Go to Details
